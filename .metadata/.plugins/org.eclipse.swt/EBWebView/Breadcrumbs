@@ -75,3 +75,52 @@
 0:00:00 Tab1 PageLoad
 0:00:00 Tab1 FinishNav2
 0:00:00 Tab1 PageLoad
+21:36:55 Microsoft.NewBrowser_Popup
+21:36:55 Microsoft.BrowserList.AddBrowser
+21:36:55 Browser2 Insert active Tab2 at 0
+21:36:55 Tab2 StartNav3 #auto_toplevel
+21:36:55 Microsoft.NewBrowser_Popup
+21:36:55 Microsoft.BrowserList.AddBrowser
+21:36:55 Browser3 Insert active Tab3 at 0
+21:36:55 Tab3 StartNav4 #auto_toplevel
+21:36:55 Microsoft.Shutdown.OnWindowClosing
+21:36:55 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+21:36:55 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+21:36:55 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+21:36:55 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+21:36:55 Microsoft.Shutdown.TabStripModel.CloseTabs
+21:36:55 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+21:36:55 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+21:36:55 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+21:36:55 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+21:36:55 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+21:36:55 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+21:36:55 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+21:36:55 Tab2 FinishNav3
+21:36:55 Tab2 RenderProcessGone
+21:36:55 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+21:36:55 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+21:36:55 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+21:36:55 Browser2 Close Tab2 at 0
+21:36:55 Tab2 WebContentsDestroyed
+21:36:56 Microsoft.Shutdown.OnWindowClosing
+21:36:56 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+21:36:56 Widget Closed: BrowserFrame
+21:36:56 Microsoft.Shutdown.OnWindowClosing
+21:36:56 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+21:36:56 Microsoft.Browser_Removed
+21:36:56 Tab3 StartNav5 #typed
+21:36:56 Tab3 FinishNav4
+21:36:56 Tab3 PageLoad
+21:36:56 Tab3 FinishNav5
+21:36:56 Tab3 PageLoad
+21:36:56 Tab3 StartNav6 #typed
+21:36:56 Tab3 FinishNav6
+21:36:56 Tab3 PageLoad
+21:40:49 Tab3 StartNav7 #typed
+21:40:49 Tab3 FinishNav7
+21:40:49 Tab3 PageLoad
+21:41:35 Tab3 StartNav8 #typed
+21:41:35 Tab3 FinishNav8
+21:41:35 Tab3 PageLoad
+21:43:38 Microsoft.Shutdown.OnWindowClosing

@@ -31,6 +31,7 @@ public class FizzBuzz {
 		}
 		
 		//Test
+		//Test2
 
 	}
 
