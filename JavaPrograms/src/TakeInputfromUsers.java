@@ -14,5 +14,5 @@ public class TakeInputfromUsers {
 		System.out.println("Hello, " + name + "! You are " + age + " years old.");
 		scanner.close();
 	}
-	
+	//Test1
 }
