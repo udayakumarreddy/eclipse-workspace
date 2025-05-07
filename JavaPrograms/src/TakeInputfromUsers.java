@@ -15,4 +15,5 @@ public class TakeInputfromUsers {
 		scanner.close();
 	}
 	//Test1
+	//Test2
 }
