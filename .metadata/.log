@@ -274,3 +274,33 @@ org.eclipse.jgit.errors.TransportException: https://github.com/udayakumarreddy/e
 	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
 	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-07 23:19:34.015
+!MESSAGE C:\Users\udaya\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache\data_1 (The process cannot access the file because it is being used by another process)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\udaya\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache\data_1 (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isBinary(WorkingTreeIterator.java:471)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredLength(WorkingTreeIterator.java:418)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:615)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:265)
+	at org.eclipse.egit.ui.internal.staging.StagingView$58.run(StagingView.java:3862)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-05-07 23:20:00.660
+!MESSAGE C:\Users\udaya\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache\data_1 (The process cannot access the file because it is being used by another process)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\udaya\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache\data_1 (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isBinary(WorkingTreeIterator.java:471)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredLength(WorkingTreeIterator.java:418)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:615)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:265)
+	at org.eclipse.egit.ui.internal.staging.StagingView$58.run(StagingView.java:3862)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
