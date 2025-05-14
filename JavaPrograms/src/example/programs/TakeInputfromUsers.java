@@ -1,3 +1,4 @@
+package example.programs;
 import java.util.Scanner;
 
 public class TakeInputfromUsers {
